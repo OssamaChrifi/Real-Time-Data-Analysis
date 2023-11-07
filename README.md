@@ -228,4 +228,4 @@ in another terminal go to cassandra and look the table
 USE keyspaces;
 SELECT * FROM orders
 ```
-
+Use plot_example.py file to start create you dashboard in real time synchronized with the mysql table wich is ubdating for each batch.
