@@ -30,6 +30,26 @@ Your source of data is eCommerce sales data. This data can include information a
     * I have a dashboard application that provides real-time insights into your eCommerce sales data.
     * This application reads data from MySQL to display analytics and visualizations, allowing users to monitor sales performance, track trends, and make informed decisions.
     * The dashboard updates in real time, as MySQL is continually updated with new data from Spark Streaming.
+ 
+To create a real-time updating pie chart that depends on a MySQL database table, you can use a combination of technologies such as a web framework (e.g., Flask or Django), a data visualization library (e.g., Chart.js or D3.js), and a database library for Python (e.g., SQLAlchemy). Here's a step-by-step guide to help you achieve this:
+
+* Database Configuration:
+   * Connect your Python application to the MySQL database using SQLAlchemy or a similar library. Configure the database URL, credentials, and connection settings.
+   * Create a model to represent the table you want to visualize. This model should allow you to retrieve and update data from the database.
+* Web Framework Configuration:
+   * Set up a web framework route or endpoint to handle requests for pie chart or others. This endpoint will query the database to retrieve data and return it to the client.
+* Real-Time Data Updates:
+   *To achieve real-time updates, you can use JavaScript and asynchronous techniques to periodically fetch data from your endpoint.
+   * Use JavaScript libraries like Chart.js to render a pie chart in your web page.
+   * Update the pie chart with new data as it becomes available.
+* Front-End Development:
+   * Create an HTML page with a placeholder for the pie chart.
+   * Include the necessary JavaScript libraries (e.g., Chart.js) to render and update the chart.
+   * Use AJAX or a JavaScript interval to periodically request data from your web application.
+* JavaScript and AJAX:
+   * Write JavaScript code to make AJAX requests to your web application's endpoint for data.
+   * Update the pie chart's data using the retrieved information.
+   * Schedule the AJAX requests at regular intervals to keep the chart up to date.
 
 Here's how the data flows through the system:
 
