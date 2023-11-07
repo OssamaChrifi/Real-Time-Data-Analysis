@@ -39,7 +39,7 @@ To create a real-time updating pie chart that depends on a MySQL database table,
 * Web Framework Configuration:
    * Set up a web framework route or endpoint to handle requests for pie chart or others. This endpoint will query the database to retrieve data and return it to the client.
 * Real-Time Data Updates:
-   *To achieve real-time updates, you can use JavaScript and asynchronous techniques to periodically fetch data from your endpoint.
+   * To achieve real-time updates, you can use JavaScript and asynchronous techniques to periodically fetch data from your endpoint.
    * Use JavaScript libraries like Chart.js to render a pie chart in your web page.
    * Update the pie chart with new data as it becomes available.
 * Front-End Development:
