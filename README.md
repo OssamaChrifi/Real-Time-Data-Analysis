@@ -94,7 +94,8 @@ sudo dpkg -i package-name.deb
 [link to download](https://dev.mysql.com/downloads/connector/j/)
 
 ## Dataset
-
+| Name | Link |
+| --------------- | --------------- |
 | orders.csv | [Download](https://drive.google.com/file/d/1wn3oMRKJT477XtjWAO7kSViF-R4HFCaf/view?usp=drive_link)|
 | consumer.csv | [Download](https://drive.google.com/file/d/1wn3oMRKJT477XtjWAO7kSViF-R4HFCaf/view?usp=drive_link)|
 
